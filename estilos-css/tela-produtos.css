@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+body{
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 2000x;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #7C0A02;
+}
+
+#section-um{
+    
+    width: 250px;
+    height: 1500px;
+    background-color: #B22222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+#imagem-icone-adm{
+    margin: 20px;
+}
+#section-um h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+#section-um a{
+    width: 100%;
+}
+#section-um p{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    background-color: #7C0A02;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    height: 30px;
+
+}
+/*====================================*/
+#section-dois{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding-left: 120px;
+    padding-top: 70px;
+}
+#section-dois h2{
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #7C0A02;
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#section-dois h3{
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #969696;
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#section-dois h4{
+    width: 150px;
+    height: 40px;
+    border: solid 1px rgb(34, 34, 34);
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #7C0A02;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+/*============================*/
+#form-um{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+#form-um [type="text"]{
+    width: 250px;
+    border: solid 1px rgb(146, 146, 146);
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-right: 20px;
+    height: 30px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form-um [type="submit"]{
+    width: 150px;
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px rgb(146, 146, 146);
+    border-radius: 10px;
+ 
+}
+#form-um [type="submit"]:hover{
+    cursor: pointer;
+
+}
+/*============================*/
+#form-dois{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#form-dois [type="text"]{
+    width: 400px;
+    border: solid 1px rgb(146, 146, 146);
+    border-radius: 20px;
+    padding-left: 15px;
+    height: 30px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form-dois [type="number"]{
+    width: 400px;
+    border: solid 1px rgb(146, 146, 146);
+    border-radius: 20px;
+    padding-left: 15px;
+    height: 30px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-dois [type="submit"]{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px rgb(146, 146, 146);
+    border-radius: 10px;
+    margin-left: 115px;
+   
+}
+#form-dois [type="submit"]:hover{
+    cursor: pointer;
+
+}

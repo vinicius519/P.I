@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
+/*===========================================================================*/
+/* abaixo esta todos os itens que compõem o header da pagina*/
+#header-um{
+    width: 100%;
+    display: flex;/*aqui eu indico que meu header será um flex box*/
+    flex-direction: row;/* para que meu header fique em linha, se não ele fica em coluna, um embaixo do outro, assim ficará na horizontal*/
+    justify-content: space-between;/* ele irá criar um espaço entre os elementos do header*/
+    align-items: flex-end;/*para alinhar os itens do header*/
+    justify-content: center;
+    height: 85px;
+    background-color: #7C0A02;
+
+    box-shadow: 1px 1px 20px 1px rgb(175, 173, 169);
+
+}
+/*abaixo tem a div do logo do header e depois a div especifica da imagem*/
+.logo{
+    width: 120px;
+    position: relative;/*com isso é muito simples para eu posicionar*/
+    left: 90px;
+ 
+}
+.logo-lógica{
+    padding-right: 110px;
+    width: 90px;
+    height:75px;
+}
+/*abaixo esta um div para o menu inteiro e logo depois uma div para as linhas especificamente*/
+
+.menu{
+    font-size: 18px;
+    margin-left: 300px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+}
+.linhas-menu{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;/*ira dar um espaçamento entre os textos do meu menu*/
+    align-items: center;
+}
+#linhas-menu-atual{
+    border-bottom: solid 1px white;
+}
+.link-linhas-menu{
+
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.link-linhas-menu:hover{
+    background-color: #E25822;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+/* abaixo esta o botao de login do menu*/
+.menu-btn{
+    font-size: 18px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+#btn-um{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;/*ira dar um espaçamento entre os textos do meu menu*/
+    align-items: center;
+}
+#link-btn-um{
+    color: black;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: white;
+}
+#link-btn-um:hover{
+    background-color: #E25822;
+    color: white;
+}
+/*===========================================================================*/
+/* abaixo esta todos os itens que compõem o primeiro aside da pagina*/
+#aside-um{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(248, 232, 255));
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    color: #B22222;
+    margin-bottom: 25px;    
+}
+#aside-um-p-um{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #B22222;
+    margin-bottom: 5px;
+}
+#aside-um-p-dois{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color:rgb(102, 102, 102);
+}

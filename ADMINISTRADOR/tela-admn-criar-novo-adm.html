@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../estilos-css/tela-adm-criar-novo-adm.css" rel="stylesheet" />
+    <title>Administrador</title>
+</head>
+<body>
+    
+    <main>
+        <header>
+
+        </header>
+        <div>
+            <section id="section-um">
+                <img src="../imagens/icone-adm.png" id="imagem-icone-adm">
+                <h2>ADMINISTRADOR</h2>
+                <a href="tela-adm.html"><p>HOME</p></a>
+                <a href="tela-lista-adm.php"><p>ADMINISTRADORES</p></a>
+                <a href="../CATEGORIA/tela-categorias.html"><p>CATEGORIAS</p></a>
+                <a href="../PRODUTO/tela-lista-produtos.php"><p>PRODUTOS</p></a>
+            </section>
+            <section id="section-dois">
+                
+                    <h1>Cria um novo Administrador</h1>
+                        
+                    <Form Action="..\criarprocessamento.php" method="POST">
+                        <br>
+                        Nome : 
+                        <input type="text" name="nome">
+                        <br>
+                        Email : 
+                        <input type="text" name="email">
+                        <br>
+                        Senha : 
+                        <input type="password" name="senha">
+                        <br>
+                        <input type="submit" value="Enviar"> 
+                    </Form>
+                    <br>
+                    <a href="tela-lista-adm.php">Voltar para a Pagina de Lista</a>  
+    
+            </section>
+
+        </div>
+        
+
+    </main>
+</body>
+</html>
